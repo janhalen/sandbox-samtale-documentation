@@ -10,7 +10,8 @@
 > *That's it! You are now set up, and your documentation site is live!*
 
 
-# [Replace with Project Title]
+# Sandbox-samtale
+> This is the documentation repo for the sandbox-samtale PoC project
 > Replace this subtitle section with a clear statement defining the mission and goals of your project in a few simple terms.
 
 [How It Works](#🧭-how-it-works) | [Architecture](#architecture) | [ How to Install and Run](#▶️-how-to-install-and-run)
