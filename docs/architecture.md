@@ -1,6 +1,6 @@
 # Project Architecture
 
-> Replace this with a brief introduction to the architecture documentation
+> Replace this with a brief introduction to the architecture documentation.
 
 
 [Architecture Diagram](#architecture-diagram) | [Components](#components) | [Data Flow](#data-flow) 
