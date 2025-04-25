@@ -1,8 +1,32 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 🗣️ Samtale - A sandbox project by [OS2](https://www.os2.eu/)
+description: Empowering organizations and authorities to collaborate effectively through focused discussions.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://os2sandbox.github.io/sandbox-samtale-documentation/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Samtale is using Zulip: https://zulip.readthedocs.io/en/latest/
+  Issue tracker på Github: https://github.com/OS2sandbox/sandbox-samtale
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+
+# Show navigation error report
+nav_error_report: true # default is false/nil.
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "docs"
+      nav_exclude: true
