@@ -2,31 +2,43 @@ title: 🗣️ Samtale - A sandbox project by [OS2](https://www.os2.eu/)
 description: Empowering organizations and authorities to collaborate effectively through focused discussions.
 theme: just-the-docs
 
+# Base URL for GitHub Pages
 url: https://os2sandbox.github.io/sandbox-samtale-documentation/
 
+# Auxiliary links
 aux_links:
   Samtale is using Zulip: https://zulip.readthedocs.io/en/latest/
   Issue tracker på Github: https://github.com/OS2sandbox/sandbox-samtale
 
-# Makes Aux links open in a new tab. Default is false
+# Makes auxiliary links open in a new tab
 aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
-# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
 nav_enabled: true
 
 # Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
-
 # Show navigation error report
-nav_error_report: true # default is false/nil.
+nav_error_report: true
 
+# Include the "docs" folder in the build
+include:
+  - docs
+
+# Enable the Just the Docs navigation
+just_the_docs:
+  collections:
+    docs:
+      output: true # Ensures the "docs" collection is rendered
+  navigation:
+    structure: nested # Enables nested navigation for subfolders
+
+# Default settings for files in the "docs" folder
 defaults:
   - scope:
-      path: "docs" # an empty string here means all files in the project
+      path: "docs" # Targets the "docs" folder
       type: "pages"
     values:
-      layout: "docs"
-      nav_exclude: false
+      layout: "default" # Use the default layout provided by the theme
+      nav_exclude: false # Include in navigation
