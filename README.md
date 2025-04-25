@@ -5,6 +5,7 @@
 > - [ ] Replace all the grey placeholder texts with your project-specific information.
 >   
 > - [ ] Add any additional relevant Markdown documents to your documentation.
+> - [ ] Configure config.yml to fit your documentation sites purpose
 > - [x] Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
 > - [ ] **Remove this setup section from your README.md.**
 >
