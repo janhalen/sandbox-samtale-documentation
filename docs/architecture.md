@@ -1,4 +1,10 @@
-# Project Architecture
+---
+title: "Project Architecture"
+nav_order: 1 # Optional: Controls the order in the navigation
+---
+
+
+# 
 
 > Replace this with a brief introduction to the architecture documentation
 
