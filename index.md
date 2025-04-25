@@ -3,33 +3,31 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# 🗣️ Samtale
+###### A sandbox project by [OS2](https://www.os2.eu/)
+_Empowering organizations and authorities to collaborate effectively through focused discussions._
+###### This repository is dedicated to tracking issues that enable collaborative efforts to improve the **[Zulip](https://github.com/zulip)** project, getting it production ready for deployment within [OS2](https://www.os2.eu/), ready to serve danish authorities 🇩🇰. 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
 
-More specifically, the created site:
+### ❔ Why Samtale?
+- **Contextual and Topic-Driven Conversations**: Participate in [efficient communication, without interuption.](https://zulip.com/why-zulip/)
+- **100% [Open Source](https://opensource.com/resources/what-open-source)**: Committed to transparency and community involvement.
+- **Hosted in the [OS2 sandbox](https://github.com/OS2sandbox)**: Bringing together ideas, developers and user - working together to mature the project.
+- **Built on upstream project [Zulip](https://github.com/zulip)**: Leveraging a robust and proven foundation for messaging.
+- **Focused on a holistic delivery**: os2samtale is a wrapper around Zulip, with the goal of delivering a production ready, preconfigured version, ready to deliver real-time-chat to danish authorities.
+- **Integrates with your existing accounts**: Supports Single-Sign On with most modern IDPs. Development underway for supporting [municipal login](https://github.com/OS2sandbox/sandbox-myndighedsidentitet/tree/main)
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### 🚀 Getting Started 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+1. **Join GitHub**: Ensure you're part of the world's largest development platform. Sign up [here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) if you're new.
+2. **Contribute**:  [Open an issue](https://github.com/OS2sandbox/sandbox-samtale/issues) and look into [Zulip](https://github.com/zulip) and [docker-zulip](https://github.com/zulip/docker-zulip/) for making upstream contributions!
+3. **Learn the Ropes**: New to open-source? [Check out this quick video introduction](https://www.youtube.com/watch?v=RGd5cOXpCQw) to get up to speed.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### 💡 Share Your Ideas 
 
-To get started with creating a site, simply:
+Want to help shape the future of collaborative communication?
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+We appreciate new ideas, suggestions, or improvements. Don't hesitate, just [open an issue](https://github.com/OS2sandbox/sandbox-samtale/issues) and let's start the conversation!
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---
+###### OS2 – Offentligt digitaliseringsfællesskab ✉️ os2@os2.eu
