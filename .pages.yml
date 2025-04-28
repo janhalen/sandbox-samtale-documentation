@@ -26,6 +26,6 @@ content:
       - name: body
         label: Body
         type: markdown
-      - name: Image
+      - name: image
         label: Image
         type: image
