@@ -1,0 +1,59 @@
+pages:
+
+ - title: Forside
+    slug: /
+    template: forside
+    fields:
+      - name: title
+        type: text
+        label: Title
+      - name: content
+        type: markdown
+        label: Content
+
+  - title: Nyheder
+    slug: /
+    template: news
+    fields:
+      - name: title
+        type: text
+        label: Title
+      - name: content
+        type: markdown
+        label: Content
+
+  - title: Om Projektet
+    slug: /about
+    template: about
+    fields:
+      - name: title
+        type: text
+        label: Title
+      - name: content
+        type: markdown
+        label: Content
+
+  - title: Organisering
+    slug: /org
+    template: org
+    fields:
+      - name: title
+        type: text
+        label: Title
+      - name: email
+        type: email
+        label: Email
+      - name: message
+        type: textarea
+        label: Message
+
+  - title: Kom i gang
+    slug: /get-started
+    template: about
+    fields:
+      - name: title
+        type: text
+        label: Title
+      - name: content
+        type: markdown
+        label: Content
