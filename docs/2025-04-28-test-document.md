@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2025-04-02
 title: Test Document
 ---
