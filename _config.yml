@@ -42,3 +42,8 @@ defaults:
     values:
       layout: "default" # Use the default layout provided by the theme
       nav_exclude: false # Include in navigation
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
