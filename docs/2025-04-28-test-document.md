@@ -5,7 +5,8 @@ title: Test Document
 ---
 # This is markdown
 
-´´´mermaid
+```mermaid
+flowchart
 a(This is mermaid)-->b(in markdown)
 
 ´´´
