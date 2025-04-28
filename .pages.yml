@@ -21,6 +21,9 @@ content:
       - name: body
         label: Body
         type: markdown
+      - name: Image
+        label: Image
+        type: Image
   - name: config
     label: Jekyll config
     path: _config.yml
