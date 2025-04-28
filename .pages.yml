@@ -1,4 +1,9 @@
-media: assets/media
+media: 
+  - label: Images
+    name: images
+    input: assets/media
+    output: assets/media
+    categories: [ image ]
 
 content: 
   - name: docs
@@ -6,7 +11,7 @@ content:
     type: collection
     path: docs
     view:
-      fields: [ title, published, date ]
+      fields: [ title, published, date, image ]
     fields:
       - name: published
         label: Published
@@ -23,4 +28,4 @@ content:
         type: markdown
       - name: Image
         label: Image
-        type: Image
+        type: image
