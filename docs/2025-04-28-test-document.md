@@ -7,6 +7,6 @@ title: Test Document
 
 ```mermaid
 flowchart
-a(This is mermaid)-->b(in markdown)
-
-´´´
+a("This is mermaid")-.->
+b("in markdown")
+```´´
