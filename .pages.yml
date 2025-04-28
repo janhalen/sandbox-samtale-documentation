@@ -1,61 +1,45 @@
 media: assets/media
 
-pages:
-
- - title: Forside
-    slug: /
-    template: forside
+content: 
+  - name: docs
+    label: Documentation
+    type: collection
+    path: docs
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
     fields:
       - name: title
-        type: text
-        label: Title
-      - name: content
-        type: markdown
-        label: Content
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+        description: Will be provused for any page with no description.
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
 
-  - title: Nyheder
-    slug: /
-    template: news
-    fields:
-      - name: title
-        type: text
-        label: Title
-      - name: content
-        type: markdown
-        label: Content
-
-  - title: Om Projektet
-    slug: /about
-    template: about
-    fields:
-      - name: title
-        type: text
-        label: Title
-      - name: content
-        type: markdown
-        label: Content
-
-  - title: Organisering
-    slug: /org
-    template: org
-    fields:
-      - name: title
-        type: text
-        label: Title
-      - name: email
-        type: email
-        label: Email
-      - name: message
-        type: textarea
-        label: Message
-
-  - title: Kom i gang
-    slug: /get-started
-    template: about
-    fields:
-      - name: title
-        type: text
-        label: Title
-      - name: content
-        type: markdown
-        label: Content
+      - 
