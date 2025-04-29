@@ -11,7 +11,7 @@ content:
     type: collection
     path: docs
     view:
-      fields: [ title, published, date, image ]
+      fields: [ title, content, image ]
     fields:
       - name: title
         label: Title
